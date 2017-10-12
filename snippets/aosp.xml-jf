@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--AOSP-JF -->
+<project path="build/blueprint" name="platform_build_blueprint" groups="pdk,tradefed" remote="aosp-jf" />
+<project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aosp-jf" >
+  <linkfile src="root.bp" dest="Android.bp" />
+  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
+<project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aosp-jf" />
+<project path="art" name="platform_art" groups="pdk" remote="aosp-jf" />
+<project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aosp-jf" />
+<project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aosp-jf" />
+<project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+<project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="aosp-jf" />
+<project path="external/connectivity" name="platform_external_connectivity" remote="aosp-jf" />
+<project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="aosp-jf"/>
+<project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+<project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="aosp-jf" />
+<project path="external/lz4" name="platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+<project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="aosp-jf" />
+<project path="external/okhttp" name="platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+<project path="external/stlport" name="platform_external_stlport" remote="aosp-jf" />
+<project path="external/tinyalsa" name="platform_external_tinyalsa" groups="pdk" remote="aosp-jf" />
+<project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aosp-jf" />
+<project path="external/tinyxml2" name="platform_external_tinyxml2" groups="pdk" remote="aosp-jf" />
+<project path="external/yaffs2" name="platform_external_yaffs2" groups="pdk" remote="aosp-jf" />
+<project path="external/zlib" name="platform_external_zlib" groups="pdk" remote="aosp-jf" />
+<project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="aosp-jf" />
+<project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" groups="pdk-fs" remote="aosp-jf" />
+<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aosp-jf" />
+<project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="aosp-jf" />
+<project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="aosp-jf" />
+<project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
+<project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+<project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="aosp-jf" />
+<project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" groups="pdk" remote="aosp-jf" />
+<project path="packages/apps/HTMLViewer" name="platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="aosp-jf" />
+<project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk-fs" remote="aosp-jf" />
+<project path="system/vold" name="platform_system_vold" groups="pdk" remote="aosp-jf" />
+<project path="system/extras" name="platform_system_extras" groups="pdk" remote="aosp-jf" />
+<project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp-jf" />
+<project path="external/libchrome" name="platform_external_libchrome" remote="aosp-jf" />
+<project path="packages/apps/KeyChain" name="platform_packages_apps_KeyChain" groups="pdk-fs" remote="aosp-jf" />
+<project path="external/libunwind_llvm" name="platform_external_libunwind_llvm" remote="aosp-jf" />
+<project path="external/vulkan-validation-layers" name="platform_external_vulkan-validation-layers" remote="aosp-jf" />
+<project path="device/qcom/common" name="android_device_qcom_common" remote="aosp-jf" />
+<project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="aosp-jf" />
+<project path="external/apache-http" name="platform_external_apache-http" groups="pdk"  remote="aosp-jf" />
+<project path="vendor/qcom/opensource/dpm/" name="android_vendor_qcom_opensource_dpm" remote="aosp-jf" />
+<project path="vendor/qcom/sdclang-3.8/linux-x86" name="android_vendor_qcom_sdclang-3.8_linux-x86" remote="aosp-jf" />
+<project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="aosp-jf" />
+<project path="frameworks/rs" name="platform_frameworks_rs" groups="pdk" remote="aosp-jf" />
+<project path="external/gemmlowp" name="platform_external_gemmlowp" remote="aosp-jf" />
+
+
+</manifest>
